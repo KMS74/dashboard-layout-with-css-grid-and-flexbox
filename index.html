@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8ec928134b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/496c101735.js"></script>
+    <title>Dashboard Layout</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <!--  NAVBAR -->
+      <div id="nav">
+        <div id="logo">
+          <p>P.</p>
+        </div>
+        <a href="#"><img src="images/filter.png" alt="filter" class="btn" /></a>
+        <a href="#"
+          ><img src="images/dashboard.png" alt="dashboard" class="btn active"
+        /></a>
+        <a href="#"
+          ><img src="images/profile.png" alt="profile" class="btn"
+        /></a>
+        <a href="#"><img src="images/stats.png" alt="stats" class="btn" /></a>
+      </div>
+      <!-- MAIN -->
+      <div id="main">
+        <h2>Progress Dashboard</h2>
+        <sectin class="top">
+          <div class="exam">
+            <p><span class="subTitle">DEADLINE </span>12:00</p>
+            <p class="largeTitle">Exam - Unit5</p>
+            <p class="subTitle">Spanish For Beginners</p>
+            <div class="test">
+              <img src="images/profile-imgs.png" alt="profile-imgs" />
+              <a href="#">Start testing</a>
+            </div>
+          </div>
+          <div class="homework todo">
+            <i class="far fa-check-circle"></i>
+            <p class="todTitile">Homework</p>
+            <p class="todoSub">For today's <br />lesson.</p>
+          </div>
+          <div class="reading todo">
+            <i class="far fa-check-circle"></i>
+            <p class="todTitile">Reading</p>
+            <p class="todoSub">25 words per <br />week.</p>
+          </div>
+        </sectin>
+        <sectin class="middle">
+          <div class="group">
+            <div class="groupHeader">
+              <p class="title">
+                Group info <br /><span class="subTitle"
+                  >13 students in the group</span
+                >
+              </p>
+              <i class="far fa-bell"></i>
+            </div>
+            <div class="groupHomework">
+              <p class="title">
+                Group homework <br /><span class="subTitle"
+                  >5 students from your group online now.</span
+                >
+              </p>
+              <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="groupFooter">
+              <p class="title">
+                Today's lessons <br /><span class="subTitle"
+                  >unit6 - Articles</span
+                >
+              </p>
+              <p>12:00</p>
+            </div>
+          </div>
+          <div class="flagProgress">
+            <div class="flagProgressTitle">
+              <img src="images/spain.png" alt="spain" />
+              <p class="largeTitle">Spanish for <br />beginners</p>
+            </div>
+            <!-- Amt is a shorthand for Amount -->
+            <div class="flagProgressAmt">
+              <p>75%</p>
+              <progress value="75" max="100"></progress>
+            </div>
+          </div>
+        </sectin>
+        <sectin class="bottom">
+          <!-- bot is a shorthand for bootom -->
+          <div class="botGrammar bot">
+            <div>
+              <i class="fas fa-pencil-alt icon-circle"></i>
+              <p class="title">
+                Grammar <br />
+                <span class="subTitle">+30 grammar rules</span>
+              </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="botDictionary bot">
+            <div>
+              <i class="fas fa-spell-check icon-circle"></i>
+              <p class="title">
+                Dictionary <br />
+                <span class="subTitle">+10 new words </span>
+              </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </sectin>
+      </div>
+      <!-- PROFILE -->
+      <div id="profile">
+        <!-- pic is a shorthand for picture -->
+        <div class="pic">
+          <img src="images/karem.jpeg" alt="logo" />
+          <p class="largeTitle name">Karem Shabana</p>
+          <p class="subTitle">Fronrend Developer</p>
+        </div>
+        <!-- ads is a shorthand for advertisements  -->
+        <div class="ads">
+          <div class="adsBox">
+            <p class="title">
+              Get - 10% sell price <br />
+              <span>for spanish A2 course</span>
+            </p>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="progress">
+          <p class="largeTitle">Courses Progress</p>
+          <div class="progressBox grammar">
+            <p class="percent">63%</p>
+            <i class="fas fa-pencil-alt"></i>
+            <p class="title">
+              Grammar <br /><span class="subTitle">Learn new rules.</span>
+            </p>
+          </div>
+          <div class="progressBox dictionary">
+            <p class="percent">78%</p>
+            <i class="fas fa-spell-check"></i>
+            <p class="title">
+              Dictionary <br /><span class="subTitle">Learn 5 new words.</span>
+            </p>
+          </div>
+          <div class="progressBox reading">
+            <p class="percent">34%</p>
+            <i class="fas fa-book-open"></i>
+            <p class="title">
+              Reading <br /><span class="subTitle">Train your skill.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
